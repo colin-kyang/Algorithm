@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectId" id="225PngbPDx5qvVxaIBAlFoJZ6LY" />
+  <component name="RunManager">
+    <configuration name="LLRBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LLRBT" />
+      <module name="week5_Red_Black_Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LLRBT" />
+      </list>
+    </recent_temporary>
+  </component>
+</project>
