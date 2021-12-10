@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Class_Code.iml" filepath="$PROJECT_DIR$/.idea/Class_Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1_Union-Find/week1_Union-Find.iml" filepath="$PROJECT_DIR$/week1_Union-Find/week1_Union-Find.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week2_Stack_Queue/week2_Stack_Queue.iml" filepath="$PROJECT_DIR$/week2_Stack_Queue/week2_Stack_Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week3_Sort/week3_Sort.iml" filepath="$PROJECT_DIR$/week3_Sort/week3_Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4_Priority_Queue/week4_Priority_Queue.iml" filepath="$PROJECT_DIR$/week4_Priority_Queue/week4_Priority_Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week5_Red_Black_Tree/week5_Red_Black_Tree.iml" filepath="$PROJECT_DIR$/week5_Red_Black_Tree/week5_Red_Black_Tree.iml" />
+    </modules>
+  </component>
+</project>
