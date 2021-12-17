@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="836834e4-ca08-4f40-8207-a62513dd6cff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/week5_Red_Black_Tree/LLRBT$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/week5_Red_Black_Tree/LLRBT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4_Priority_Queue/src/priority_queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4_Priority_Queue/week4_Priority_Queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4_Symbol-Table/src/ordedST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4_Symbol-Table/src/unorded_ST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5_Red_Black_Tree/src/LLRBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5_Red_Black_Tree/week5_Red_Black_Tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Class_Code/Input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_Symbol-Table/week4_Symbol-Table.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week4_Symbol-Table/week4_Symbol-Table.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="225PngbPDx5qvVxaIBAlFoJZ6LY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.ordedST">
+    <configuration name="LLRBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LLRBT" />
+      <module name="week5_Red_Black_Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ordedST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ordedST" />
+      <module name="week4_Symbol-Table" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unorded_ST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unorded_ST" />
+      <module name="week4_Symbol-Table" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ordedST" />
+        <item itemvalue="Application.unorded_ST" />
+        <item itemvalue="Application.LLRBT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="836834e4-ca08-4f40-8207-a62513dd6cff" name="Changes" comment="" />
+      <created>1639743635533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639743635533</updated>
+      <workItem from="1639743636961" duration="1502000" />
+      <workItem from="1639745163518" duration="75000" />
+      <workItem from="1639745246167" duration="184000" />
+      <workItem from="1639745448684" duration="100000" />
+      <workItem from="1639745563663" duration="5710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
