@@ -1,3 +1,8 @@
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Queue;
+
 /**
  * 符号表：类似于 map<key,value>
  * 基于二叉搜素树实现
@@ -15,6 +20,7 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
             size=0;
         }
         //init with param
+
         public Node(Key key,Value value)
         {
             this.key=key;
@@ -24,7 +30,6 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
 
     //根节点
     private Node root;
-
 
     /**
      * 初始化条件
@@ -41,7 +46,8 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
     public void put(Key key,Value value)
     {
         this.root=put(this.root,key,value);
-        size(this.root);
+        //更新总数
+        root.size=size(this.root);
     }
 
     /**
@@ -72,6 +78,8 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
             //若插入节点 key > current.value : 右子树搜索
             current.right=put(current.right,key,value);
         }
+        //更新当前节点总数
+        current.size=size(current);
         return current;
     }
 
@@ -82,26 +90,28 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
      */
     public Value get(Key key)
     {
-        Node current=this.root;
-        while(current!=null)
-        {
-            int flag=key.compareTo(current.key);
-            if(flag==0)
-            {
-                return current.value;
-            }
-            else if(flag<0)
-            {
-                //key 较小：左子树搜索
-                current=current.left;
-            }
-            else
-            {
-                //key 较大： 右子树搜索
-                current=current.right;
-            }
+        return get(root,key);
+    }
+
+    /**
+     * 寻找key 对应的节点值
+     * @param current
+     * @param key
+     * @return
+     */
+    public Value get(Node current,Key key)
+    {
+        //若寻到空节点，则返回null
+        if(current==null){return null;}
+        int flag=key.compareTo(current.key);
+        if(flag==0){return current.value;}
+        else if(flag<0){
+            return get(current.left,key);
         }
-        return null;
+        else
+        {
+            return get(current.right,key);
+        }
     }
 
     /**
@@ -113,6 +123,29 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
     {
         if(current==null){return 0;}
         return (current.size= 1+size(current.left)+size(current.right));
+    }
+
+    public int size()
+    {
+        return root.size;
+    }
+
+    /**
+     * 获取最大值
+     * @return
+     */
+    public Value getMax()
+    {
+        return getMax(root).value;
+    }
+
+    /**
+     * 获取最小值
+     * @return
+     */
+    public Value getMin()
+    {
+        return getMin(root).value;
     }
 
     /**
@@ -156,7 +189,7 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
 
 
     /**
-     *
+     * 找到键值小于key 值的最大的节点的value
      * @param current
      * @param key
      * @return
@@ -176,6 +209,7 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
         {
             return Floor(current.left,key);
         }
+        //试探，若向右能继续找到小于key的节点，则继续；否则，当前节点就是目标点
         Node tmp=Floor(current.right,key);
         if(tmp==null)
         {//试探：可能存在回退操作
@@ -229,6 +263,38 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
         return current;
     }
 
+    /**
+     * 范围查找
+     * @param lo
+     * @param hi
+     * @return
+     */
+    public Queue<Key> keys(Key lo,Key hi)
+    {
+        Queue<Key> queue=new ArrayDeque<>();
+        keys(root,queue,lo,hi);
+        return  queue;
+
+    }
+
+    /**
+     * 范围查找实现api
+     * @param root
+     * @param queue
+     * @param lo
+     * @param hi
+     */
+    private void keys(Node root, Queue<Key> queue, Key lo, Key hi) {
+        if(root==null){return;}
+        int cmpLo= root.key.compareTo(lo);
+        int cmpHigh=root.key.compareTo(hi);
+        if(cmpLo>0){keys(root.left,queue,lo,hi);}
+        if(cmpLo>=0&&cmpHigh<=0){
+            System.out.println(root.key);
+            queue.add(root.key);}
+        if(cmpHigh<0){keys(root.right,queue,lo,hi);}
+    }
+
 
     public static void main(String[] args) {
         //基本构建
@@ -237,7 +303,9 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
         st.put(2,9890);
         st.put(1,9999);
         st.put(4,10);
-        st.remove(1);
-        System.out.println(st.get(3));
+        st.keys(1,4);
+//        st.remove(1);
+//        System.out.println(st.get(3));
+//        System.out.println(st.size());
     }
 }

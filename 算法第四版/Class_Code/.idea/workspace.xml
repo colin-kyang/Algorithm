@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="836834e4-ca08-4f40-8207-a62513dd6cff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/week5_Red_Black_Tree/LLRBT$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/week5_Red_Black_Tree/LLRBT.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4_Priority_Queue/src/priority_queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4_Priority_Queue/week4_Priority_Queue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4_Symbol-Table/src/ordedST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4_Symbol-Table/src/unorded_ST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5_Red_Black_Tree/src/LLRBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5_Red_Black_Tree/week5_Red_Black_Tree.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Class_Code/Input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_Symbol-Table/week4_Symbol-Table.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week4_Symbol-Table/week4_Symbol-Table.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_Symbol-Table/src/Symbol_Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/week4_Symbol-Table/src/Symbol_Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +39,17 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.ordedST">
+  <component name="RunManager" selected="Application.Symbol_Table">
     <configuration name="LLRBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LLRBT" />
       <module name="week5_Red_Black_Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Symbol_Table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Symbol_Table" />
+      <module name="week4_Symbol-Table" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,6 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Symbol_Table" />
         <item itemvalue="Application.ordedST" />
         <item itemvalue="Application.unorded_ST" />
         <item itemvalue="Application.LLRBT" />
@@ -93,6 +90,7 @@
       <workItem from="1639745246167" duration="184000" />
       <workItem from="1639745448684" duration="100000" />
       <workItem from="1639745563663" duration="5710000" />
+      <workItem from="1639812214497" duration="3487000" />
     </task>
     <servers />
   </component>
