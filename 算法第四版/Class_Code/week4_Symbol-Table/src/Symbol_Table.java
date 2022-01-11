@@ -45,6 +45,7 @@ public class Symbol_Table<Key extends Comparable<Key>,Value> {
      */
     public void put(Key key,Value value)
     {
+        //由根节点开始递归地插入节点
         this.root=put(this.root,key,value);
         //更新总数
         root.size=size(this.root);

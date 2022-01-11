@@ -6,7 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/week1_Union-Find/week1_Union-Find.iml" filepath="$PROJECT_DIR$/week1_Union-Find/week1_Union-Find.iml" />
       <module fileurl="file://$PROJECT_DIR$/week2_Stack_Queue/week2_Stack_Queue.iml" filepath="$PROJECT_DIR$/week2_Stack_Queue/week2_Stack_Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/week3_Sort/week3_Sort.iml" filepath="$PROJECT_DIR$/week3_Sort/week3_Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4_Priority_Queue/week4_Priority_Queue.iml" filepath="$PROJECT_DIR$/week4_Priority_Queue/week4_Priority_Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/week4_Symbol-Table/week4_Symbol-Table.iml" filepath="$PROJECT_DIR$/week4_Symbol-Table/week4_Symbol-Table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week5_Red_Black_Tree/week5_Red_Black_Tree.iml" filepath="$PROJECT_DIR$/week5_Red_Black_Tree/week5_Red_Black_Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week6_Hash/week6_Hash.iml" filepath="$PROJECT_DIR$/week6_Hash/week6_Hash.iml" />
     </modules>
   </component>
 </project>

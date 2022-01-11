@@ -39,6 +39,7 @@ public class LLRBT {
     {
         this.root=put(root,key,value);
         //每次插值后，均需要重置this.root 的颜色
+        //避免this.root 颜色为红色。每次由红-> 黑，对应 2-3                                        树高度+1
         this.root.color="Black";
     }
 
@@ -99,6 +100,8 @@ public class LLRBT {
         Node x=current.left;
         current.left=x.right;
         x.right=current;
+        x.color= current.color;
+        current.color="Red";
         return x;
     }
 
@@ -158,6 +161,22 @@ public class LLRBT {
     }
 
     //--- to do--- 删除
+    public void remveMax()
+    {
+
+
+    }
+
+    public void removeMin()
+    {
+
+
+    }
+
+    public void remove(Comparable key)
+    {
+
+    }
 
 
 

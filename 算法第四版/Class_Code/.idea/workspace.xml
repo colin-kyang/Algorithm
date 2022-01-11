@@ -1,11 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="836834e4-ca08-4f40-8207-a62513dd6cff" name="Changes" comment="">
+    <list default="true" id="836834e4-ca08-4f40-8207-a62513dd6cff" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_Code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2_Stack_Queue/2 Stack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2_Stack_Queue/src/Accumulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2_Stack_Queue/src/ResizingArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6_Hash/src/ChainingHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6_Hash/src/LinearProbingHashST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6_Hash/week6_Hash.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coding/coding.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expandAlgorithm/.idea/expandAlgorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Class_Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Class_Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week4_Symbol-Table/Symbol_Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week5_Red_Black_Tree/LLRBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week5_Red_Black_Tree/LLRBT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_Union-Find/src/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1_Union-Find/src/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_Union-Find/src/quick_find.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1_Union-Find/src/quick_find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_Union-Find/src/quick_union.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1_Union-Find/src/quick_union.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_Union-Find/src/site.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1_Union-Find/src/site.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_Union-Find/src/union_find.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1_Union-Find/src/union_find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_Union-Find/src/weighted_quick_union.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1_Union-Find/src/weighted_quick_union.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_Union-Find/week1_Union-Find.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week1_Union-Find/week1_Union-Find.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_Stack_Queue/src/LinckedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/week2_Stack_Queue/src/LinckedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_Stack_Queue/src/ResizeStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_Stack_Queue/week2_Stack_Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week2_Stack_Queue/week2_Stack_Queue.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3_Sort/src/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3_Sort/src/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3_Sort/src/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3_Sort/src/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3_Sort/src/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3_Sort/src/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3_Sort/src/SortTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3_Sort/src/SortTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3_Sort/src/binaryHeap/heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3_Sort/src/binaryHeap/heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3_Sort/src/binaryHeap/heapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3_Sort/src/binaryHeap/heapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3_Sort/week3_Sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week3_Sort/week3_Sort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_Priority_Queue/src/priority_queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/week4_Priority_Queue/src/priority_queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_Priority_Queue/week4_Priority_Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week4_Priority_Queue/week4_Priority_Queue.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week4_Symbol-Table/src/Symbol_Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/week4_Symbol-Table/src/Symbol_Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_Symbol-Table/src/ordedST.java" beforeDir="false" afterPath="$PROJECT_DIR$/week4_Symbol-Table/src/ordedST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_Symbol-Table/src/unorded_ST.java" beforeDir="false" afterPath="$PROJECT_DIR$/week4_Symbol-Table/src/unorded_ST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_Symbol-Table/week4_Symbol-Table.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week4_Symbol-Table/week4_Symbol-Table.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5_Red_Black_Tree/src/LLRBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/week5_Red_Black_Tree/src/LLRBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5_Red_Black_Tree/week5_Red_Black_Tree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week5_Red_Black_Tree/week5_Red_Black_Tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coding/src/HelloGoodbye.java" beforeDir="false" afterPath="$PROJECT_DIR$/../coding/src/HelloGoodbye.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coding/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../coding/src/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coding/src/RandomWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../coding/src/RandomWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expandAlgorithm/src/Shuffle/KnuthShuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../expandAlgorithm/src/Shuffle/KnuthShuffle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +66,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="225PngbPDx5qvVxaIBAlFoJZ6LY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,46 +89,73 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.Symbol_Table">
-    <configuration name="LLRBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLRBT" />
-      <module name="week5_Red_Black_Tree" />
+  <component name="RunManager" selected="Application.LinckedStack">
+    <configuration name="Accumulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Accumulator" />
+      <module name="week2_Stack_Queue" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Symbol_Table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Symbol_Table" />
+    <configuration name="ChainingHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChainingHash" />
+      <module name="week6_Hash" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinckedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinckedStack" />
+      <module name="week2_Stack_Queue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearProbingHashST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinearProbingHashST" />
+      <module name="week6_Hash" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResizingArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ResizingArrayStack" />
+      <module name="week2_Stack_Queue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="week4_Symbol-Table" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ordedST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ordedST" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="week4_Symbol-Table" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="unorded_ST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unorded_ST" />
-      <module name="week4_Symbol-Table" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Symbol_Table" />
-        <item itemvalue="Application.ordedST" />
-        <item itemvalue="Application.unorded_ST" />
-        <item itemvalue="Application.LLRBT" />
+        <item itemvalue="Application.LinckedStack" />
+        <item itemvalue="Application.ResizingArrayStack" />
+        <item itemvalue="Application.Accumulator" />
+        <item itemvalue="Application.LinearProbingHashST" />
+        <item itemvalue="Application.ChainingHash" />
       </list>
     </recent_temporary>
   </component>
@@ -91,10 +173,28 @@
       <workItem from="1639745448684" duration="100000" />
       <workItem from="1639745563663" duration="5710000" />
       <workItem from="1639812214497" duration="3487000" />
+      <workItem from="1639884815171" duration="193000" />
+      <workItem from="1639885026619" duration="1568000" />
+      <workItem from="1639924008188" duration="594000" />
+      <workItem from="1640242572602" duration="1580000" />
+      <workItem from="1641712869393" duration="14591000" />
+      <workItem from="1641827537545" duration="10144000" />
+      <workItem from="1641904454024" duration="3384000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
